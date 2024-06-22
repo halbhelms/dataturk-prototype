@@ -1,0 +1,16 @@
+:root {
+  --margin-sm: 1rem;
+  --margin-md: 2rem;
+  --margin-lg: 3rem;
+  --padding-sm: 1rem;
+  --padding-md: 2rem;
+  --padding-lg: 3rem;
+  --gap-sm: 1rem;
+  --gap-md: 2rem;
+  --gap-lg: 3rem;
+  --font-size-sm: 1rem;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 2rem;
+  --font-size-xl: 3rem;
+  --color-active: #007bff;
+}

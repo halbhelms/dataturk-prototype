@@ -1,0 +1,81 @@
+/* Reset.css */
+
+/* Remove default margin and padding from all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a consistent line-height and font-size */
+html {
+  font-size: 10px;
+  /* 1rem = 10px */
+  line-height: 1.5;
+}
+
+/* Set default font settings for the body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  /* 16px */
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove text decorations from links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove border and padding from images */
+img {
+  border: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default styles for form elements */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Remove default quotes for blockquote and q */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
